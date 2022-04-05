@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {font-family: Arial, Helvetica, sans-serif; 
+
+}
+body {background-image: linear-gradient(to right,  #F1CCD7, #F28DB2); 
+
+}
+main { background-color: white; width: 600px; padding: 10px;
+    margin: auto; border-radius: 20px; box-shadow: 10px 10px 10px #D96690;
+     
+}
+h1 { color: #D96690; text-shadow: 1px 1px 1px #F1CCD7;
+
+}
+h2{ color: #89C2D9; text-shadow: 1px 1px 1px #88E8F2;
+
+}
+p {text-align: justify;
+    
+}
+input, select, textarea, button {
+    border-radius: 5px;
+}

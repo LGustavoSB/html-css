@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 196, 134);
+    margin: 0px;
+    
+}
+header{
+    background-color: blanchedalmond;
+    padding: 10px;
+    border: 5px solid brown;
+    margin: 10px 10px 0px 10px;
+    border-radius: 30px 30px 0px 0px;
+}
+nav{
+    padding: 3px;
+    background-color: brown;
+    box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.452);
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0px 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    border: 5px solid brown;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384);
+}
+article{
+    background-color: burlywood;
+}
+article > aside{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    padding: 4px;
+    margin: 5px 0px 5px 0px;
+}
+footer > p{
+    margin: 0px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 30px;
+    background-color: burlywood;
+}
+::-webkit-scrollbar-thumb{
+    background-color: brown;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(209, 88, 41);
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h1{
+    color: brown;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h1#principal{
+    text-align: center;
+    background-color: rgba(63, 13, 13, 0.774);
+    color: white;
+}
+h2{
+    color: darkgoldenrod;
+}
+.sub2{
+    color: rgb(141, 106, 16);
+}
+.sub3{
+    color: rgb(94, 71, 13);
+}
+.destaque{
+    background-color: brown; color: white; font-weight: bolder;
+}

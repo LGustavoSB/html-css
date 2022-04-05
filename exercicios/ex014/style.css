@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    text-align: justify;
+    background-color: blanchedalmond;
+}
+h1 {
+    font: normal bolder 2em 'Courier New', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration:underline ;
+}
+p {
+    font: normal bold 1.5em 'Courier New', sans-serif;
+}
+h2 {
+    font: bolder 1.7em 'Courier New', sans-serif;
+    text-decoration: underline;
+}

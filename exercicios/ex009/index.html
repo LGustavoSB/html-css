@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias</title>
+</head>
+<body style="background-color: blanchedalmond;">
+    <h1>Imagens Dinâmicas</h1>
+    <p>imagens ajustaveis pelo tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens\M.png" type="image/png">
+        <img src="imagens/G.png" alt="grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio src="midia/Vespers on the Shore - The Mini Vandals.mp3" controls autoplay></audio> 
+    <p>outra maneira</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Vespers on the Shore - The Mini Vandals.mp3" type="audio/mpeg">
+        <source src="midia/Vespers on the Shore - The Mini Vandals.ogg" type="audio/ogg">
+        <source src="midia/Vespers on the Shore - The Mini Vandals.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir audio <a href="midia/Vespers on the Shore - The Mini Vandals.mp3">Baixe o audio aqui</a></p>
+    </audio>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <video width="200" height="400" controls loop>
+        <source src="midia/Tumblr Qffm3i9g2f1y54s2v.mp4" type="video/mp4">
+        <source src="midia/Tumblr Qffm3i9g2f1y54s2v.m4v" type="video/mp4">
+        <source src="midia/Tumblr Qffm3i9g2f1y54s2v.webm" type="video/
+        webm">
+    </video>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
