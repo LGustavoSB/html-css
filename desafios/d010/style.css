@@ -93,6 +93,7 @@ main h1 {
     font-size: 1.8em;
     font-family: 'Android';
     color: #1B5D39;
+    text-align: center;
 }
 h2{
     text-align: justify;
