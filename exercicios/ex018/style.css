@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('imagens/wallpaper001.jpg'); 
+    max-width: 1000px;
+    min-width: 350px;
+    width: 100%;
+    margin: auto;
+}
+div.quadrado{
+    margin: 5px;
+    display: inline-block;
+    background-color: burlywood;
+    border: 2px solid brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+div#q1{
+    background-color: salmon;
+}
+div#q2{
+    background-image: linear-gradient(to bottom, salmon, pink);
+}
+div#q3{
+    background-image: url('imagens/pattern003.png');
+}
+div#q4{
+    background-image: url('imagens/pattern002.png');
+
+}
+div#q5{
+    background-image: url('imagens/wallpaper005.jpg');
+}
+div#q6{
+    background-image: linear-gradient(to bottom, salmon, pink, violet, purple);
+}
