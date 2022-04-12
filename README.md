@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
 
-<a href="html-css/exercicios/ex018/index.html">Ex 18<a>
+<a href="exercicios/ex018/index.html">Ex 18<a>
